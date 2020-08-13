@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space- between;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav .logo {
+    font-weight: 900;
+    font-size: 64px;
+    color: #021718
+}
+
+.nav-items li:nth-last-of-type(1) {
+    margin: 0;
+}
+
+.nav-items li a {
+    color: #021718
+    font-size: 24px;
+    font-family: "poppins", sans-serif;
+    text-decoration: none;
+}
+
+.header-container {
+    background: #f5a05c url( "images/bg-shape.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    height: calc(100vh - 72px);
+    display: flex;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* HIdden Items */
+
+.search
